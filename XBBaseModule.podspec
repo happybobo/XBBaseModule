@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.summary = 'XBBaseModule is base Module'
   s.homepage = 'https://happybobo.github.com/'
   s.author = { 'Bobby' => 'https://happybobo.github.com/' }
-  s.source = { :git => '~/baseModule' }
+  s.source = { :git => 'https://github.com/happybobo/XBBaseModule' }
   s.platform = :ios, '8.0'
   s.source_files = '*.{h,m}'
   s.dependency 'ReactiveCocoa', '~> 2.5'
