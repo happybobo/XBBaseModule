@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.summary = 'XBBaseModule is base Module'
   s.homepage = 'https://happybobo.github.com/'
   s.author = { 'Bobby' => 'https://happybobo.github.com/' }
-  s.source = { :git => 'https://github.com/happybobo/XBBaseModule.git' }
+  s.source = { :git => '~/baseModule' }
   s.platform = :ios, '8.0'
   s.source_files = '*.{h,m}'
   s.dependency 'ReactiveCocoa', '~> 2.5'
@@ -14,4 +14,5 @@ Pod::Spec.new do |s|
   s.dependency 'DZNEmptyDataSet', '~> 1.7.2'
   s.dependency 'SVPullToRefresh', '~> 0.4.1'
   s.dependency 'Masonry', '~> 0.6.3'
+  s.dependency 'AFNetworking', '~> 2.5.0'
 end
